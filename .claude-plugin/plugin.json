@@ -1,0 +1,14 @@
+{
+  "name": "fp",
+  "version": "0.1.0",
+  "description": "FrankenPress operational skills for tenant site repos — invoked as /fp:<skill> from any repo forked from frankenpress/site-template.",
+  "author": {
+    "name": "FrankenPress",
+    "email": "hello@frankenpress.com",
+    "url": "https://frankenpress.com"
+  },
+  "homepage": "https://github.com/frankenpress/fp-skills",
+  "repository": "https://github.com/frankenpress/fp-skills",
+  "license": "Apache-2.0",
+  "keywords": ["frankenpress", "wordpress", "bedrock", "claude-code"]
+}
