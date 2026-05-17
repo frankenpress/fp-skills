@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "fp",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "frankenpress/fp-skills"
+      },
       "description": "Operational skills invoked as /fp:<skill> from inside a FrankenPress tenant site repo."
     }
   ]
