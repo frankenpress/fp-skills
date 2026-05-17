@@ -1,0 +1,16 @@
+{
+  "name": "fp-skills",
+  "owner": {
+    "name": "FrankenPress",
+    "email": "hello@frankenpress.com",
+    "url": "https://frankenpress.com"
+  },
+  "description": "FrankenPress operational skills marketplace — Claude Code skills for tenant site repos forked from frankenpress/site-template.",
+  "plugins": [
+    {
+      "name": "fp",
+      "source": ".",
+      "description": "Operational skills invoked as /fp:<skill> from inside a FrankenPress tenant site repo."
+    }
+  ]
+}

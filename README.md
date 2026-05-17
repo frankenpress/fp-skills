@@ -11,14 +11,19 @@ docs, they save you the typing.
 
 ## Install
 
-From inside any FrankenPress tenant site repo (or globally):
+This repo is **both a Claude Code marketplace and the plugin source**.
+From any Claude Code session (project-scoped or global), run:
 
-```sh
-/plugin install github://frankenpress/fp-skills
+```text
+/plugin marketplace add frankenpress/fp-skills
+/plugin install fp@fp-skills
 ```
 
-That registers the `fp` plugin namespace with Claude Code. Verify with
-`/plugin list` — you should see `fp` in the output.
+Verify with `/plugin list` — you should see `fp` in the output, and
+`/fp:add-plugin` should be available as a slash command.
+
+- `frankenpress/fp-skills` is the **marketplace** (the repo).
+- `fp` is the **plugin name** (so skills resolve as `/fp:<skill>`).
 
 ## Skills
 
